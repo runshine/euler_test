@@ -1,6 +1,6 @@
 Name:   euler_test
 Version:  0.3.9.2
-Release:  3%{?dist}
+Release:  3
 Summary:  A simple tool for pasting info onto sticky notes instances
 BuildArch:  noarch
 License:  GPLv3+
