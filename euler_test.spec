@@ -6,7 +6,6 @@ BuildArch:  noarch
 License:  GPLv3+
 URL:    https://pagure.io/fpaste
 Source0:  https://pagure.io/releases/fpaste/fpaste-0.3.9.2.tar.gz
-Requires:    python3
 %description
 It is often useful to be able to easily paste text to the Fedora
 Pastebin at http://paste.fedoraproject.org and this simple script
