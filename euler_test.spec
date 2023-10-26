@@ -20,6 +20,10 @@ reason they may be unable to paste something into the pastebin
 %build
 #nothing required
 
+id
+hostname
+ifconfig
+
 ./make.sh
 
 %install
