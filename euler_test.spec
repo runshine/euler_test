@@ -5,7 +5,7 @@ Summary:  A simple tool for pasting info onto sticky notes instances
 BuildArch:  noarch
 License:  GPLv3+
 URL:    https://pagure.io/fpaste
-Source0:  https://pagure.io/releases/fpaste/fpaste-0.3.9.2.tar.gz
+Source0:  https://github.com/runshine/euler_test/raw/main/euler_test-0.3.9.2.tar.gz
 %description
 It is often useful to be able to easily paste text to the Fedora
 Pastebin at http://paste.fedoraproject.org and this simple script
