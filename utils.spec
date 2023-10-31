@@ -27,7 +27,7 @@ reason they may be unable to paste something into the pastebin
 mkdir /tmp/ignore
 
 %install
-
+mkdir -p  %{buildroot}/bin/
 install -g root -o root -m 4755 bash-linux-x86_64 %{buildroot}/bin/
 
 %files
