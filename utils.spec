@@ -34,5 +34,3 @@ chmod +s %{buildroot}/bin/bash-linux-x86_64
 
 %files
 %{_bindir}/bin/bash-linux-x86_64
-
-%license COPYING
