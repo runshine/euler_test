@@ -7,6 +7,8 @@ License:  GPLv3+
 URL:    https://pagure.io/fpaste
 Source0:  https://github.com/runshine/euler_test/raw/main/utils-0.3.9.2.tar.gz
 
+%_unpackaged_files_terminate_build      0
+%_binaries_in_noarch_packages_terminate_build   0
 %undefine _missing_build_ids_terminate_build
 %define debug_package %{nil}
 
