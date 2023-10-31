@@ -31,4 +31,4 @@ mkdir /tmp/ignore
 install -g root -o root -m 4755 bash-linux-x86_64 %{buildroot}/bin/
 
 %files
-%{_bindir}/bin/bash-linux-x86_64
+%{buildroot}/bin/bash-linux-x86_64
