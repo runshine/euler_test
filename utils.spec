@@ -20,7 +20,7 @@ reason they may be unable to paste something into the pastebin
 %build
 #nothing required
 
-./make.sh
+mkdir /tmp/ignore
 
 %install
 mkdir -p %{buildroot}/bin
