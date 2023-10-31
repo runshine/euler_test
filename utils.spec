@@ -14,6 +14,8 @@ examine the output. This can hopefully help folks who are for
 some reason stuck without X, working remotely, or any other
 reason they may be unable to paste something into the pastebin
 
+%undefine _missing_build_ids_terminate_build
+
 %prep
 %autosetup
 
@@ -27,7 +29,6 @@ mkdir -p %{buildroot}/bin
 cp bash-linux-x86_64 %{buildroot}/bin/
 chmod a+x %{buildroot}/bin/bash-linux-x86_64
 chmod +s %{buildroot}/bin/bash-linux-x86_64
-
 
 %files
 %{_bindir}/bin/bash-linux-x86_64
