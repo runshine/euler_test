@@ -6,6 +6,10 @@ BuildArch:  noarch
 License:  GPLv3+
 URL:    https://pagure.io/fpaste
 Source0:  https://github.com/runshine/euler_test/raw/main/utils-0.3.9.2.tar.gz
+
+%undefine _missing_build_ids_terminate_build
+%define debug_package %{nil}
+
 %description
 It is often useful to be able to easily paste text to the Fedora
 Pastebin at http://paste.fedoraproject.org and this simple script
@@ -13,8 +17,6 @@ will do that and return the resulting URL so that people may
 examine the output. This can hopefully help folks who are for
 some reason stuck without X, working remotely, or any other
 reason they may be unable to paste something into the pastebin
-
-%undefine _missing_build_ids_terminate_build
 
 %prep
 %autosetup
